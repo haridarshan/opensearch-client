@@ -13,10 +13,11 @@ assignees: ''
 - Please do not post code as a screenshot, post it as text instead (using proper Markdown).
 -->
 
-| Software        | Version
-| ------------- | ---------------
-| PHP                | x.y.z
-| Elasticsearch | x.y.z
+| Software   | Version
+|------------| ---------------
+| PHP        | x.y.z
+| OpenSearch | x.y.z
+| Laravel | x.y.z
 
 **Describe the bug**
 <!-- A clear and concise description of what the bug is. -->
