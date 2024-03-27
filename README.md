@@ -51,6 +51,7 @@ return [
                 env('OPENSEARCH_USERNAME'),
                 env('OPENSEARCH_PASSWORD'),
             ],
+            'retries' => (int) env('OPENSEARCH_RETRIES', 2),
             // disable SSL Verification
             'sslVerification' => env('OPENSEARCH_SSL_VERIFICATION', false),
             // configure HTTP client (Guzzle by default)

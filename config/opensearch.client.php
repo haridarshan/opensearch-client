@@ -12,7 +12,7 @@ return [
                 env('OPENSEARCH_USER', 'admin'),
                 env('OPENSEARCH_PASSWORD', 'admin')
             ],
-            'retries' => (int) env('OPENSEARCH_RETRYS', 2),
+            'retries' => (int) env('OPENSEARCH_RETRIES', 2),
         ],
     ],
 ];
